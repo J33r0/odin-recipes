@@ -1,0 +1,60 @@
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background: linear-gradient(rgb(235, 64, 143), rgb(51, 51, 133));
+}
+
+h1 {
+    font-size: 75px;
+    text-align: center;
+    background: darkblue;
+    color: white;
+    border-radius: 15px;
+}
+
+p {
+    background: repeating-linear-gradient(black, yellow);
+    color: white;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 12px;
+    animation: rotation 2s linear;
+}
+
+ul {
+    background-color: yellowgreen;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+ul li {
+    background-color: yellow;
+    color: black;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+ol {
+    background-color: red;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+ol li {
+    background-color: rgb(255, 113, 113);
+    color: black;
+    padding: 5px;
+    margin-left: 35px;
+}
